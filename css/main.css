@@ -40,6 +40,10 @@ html {
 }
 
 /* Fonts and Sizes */
+a:link {
+    text-decoration: none;
+}
+
 h1 {
     font-family: 'Rock Salt', cursive;
     color: white;
@@ -56,12 +60,15 @@ h6 {
     font-family: 'Khula', sans-serif;
     color: white;
     text-align: center;
+    padding: 0.2rem;
 }
 
-p {
+p,
+a {
     font-family: 'Khula', sans-serif;
     color: white;
     line-height: 1.4rem;
+    padding: 0.2rem;
 }
 
 h2 {
@@ -161,4 +168,11 @@ section {
 
 article {
     padding: 5px;
+}
+
+.contact-container {
+    background-color: aqua;
+    text-align: center;
+    background-color: rgba(25, 148, 164, 0.53);
+    padding: 1.5rem;
 }
