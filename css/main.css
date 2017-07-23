@@ -196,3 +196,7 @@ article {
     background-color: rgba(25, 148, 164, 0.53);
     padding: 1.5rem;
 }
+
+.work article div {
+    border-left: 2px solid white;
+}
