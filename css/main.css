@@ -1,2 +1,39 @@
+/* TABLE OF CONTENTS */
+
+/* COLORS USED */
+
+/* FONTS USED */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+html {
+    background: url(img/);
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* FONT DECLARATION */
 font-family: 'Rock Salt', cursive;
 font-family: 'Telex', sans-serif;
