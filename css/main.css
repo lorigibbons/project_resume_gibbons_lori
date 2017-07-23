@@ -39,11 +39,13 @@ html {
     box-sizing: inherit;
 }
 
+/* Fonts and Sizes */
 h1 {
     font-family: 'Rock Salt', cursive;
     color: white;
     text-align: center;
     padding-top: 25px;
+    font-size: 2rem;
 }
 
 h2,
@@ -61,10 +63,15 @@ p {
     color: white;
 }
 
+h2 {
+    font-size: 1.2rem;
+}
+
 .hide {
     display: none;
 }
 
+/* Highlight Color */
 ::selection {
     background-color: turquoise;
 }
