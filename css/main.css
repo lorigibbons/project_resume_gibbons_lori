@@ -65,8 +65,9 @@ p {
 img {
     display: block;
     margin: auto;
-    position: relative;
-    width: 30%;
+    margin-top: 35px;
+    width: 40%;
+    max-width: 70%;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -82,4 +83,26 @@ img {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
+}
+
+/* Social Media Icon */
+.fa {
+    padding: 1rem;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-skype,
+.fa-youtube {
+    background-color: transparent;
+    color: white;
 }
