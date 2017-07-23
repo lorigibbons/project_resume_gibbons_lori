@@ -43,6 +43,7 @@ h1 {
     font-family: 'Rock Salt', cursive;
     color: white;
     text-align: center;
+    padding-top: 25px;
 }
 
 h2,
@@ -89,6 +90,37 @@ img {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
+}
+
+/* Button */
+.button {
+    display: block;
+    margin: 8px auto;
+    background-color: rgba(25, 148, 164, 0.53);
+    color: white;
+    font-family: 'Khula', sans-serif;
+    width: 80%;
+    padding: 6px 12px;
+    font-size: 1rem;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 6px grey;
 }
 
 /* Social Media Icon */
