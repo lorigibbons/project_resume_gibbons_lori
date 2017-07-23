@@ -205,3 +205,7 @@ article {
 .testimonials h3 {
     display: none;
 }
+
+.testimonials article {
+    background-color: rgba(25, 148, 164, 0.53);
+}
