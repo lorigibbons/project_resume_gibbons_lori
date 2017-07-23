@@ -201,3 +201,7 @@ article {
 .work article div {
     border-left: 2px solid white;
 }
+
+.testimonials h3 {
+    display: none;
+}
