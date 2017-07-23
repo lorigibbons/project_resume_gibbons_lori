@@ -61,10 +61,12 @@ h6 {
 p {
     font-family: 'Khula', sans-serif;
     color: white;
+    line-height: 1.4rem;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
 }
 
 .hide {
@@ -109,7 +111,7 @@ img {
     width: 80%;
     padding: 6px 12px;
     font-size: 1rem;
-    line-height: 1.42857143;
+    line-height: 1.5;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -150,4 +152,13 @@ img {
 .fa-youtube {
     background-color: transparent;
     color: white;
+}
+
+/* CONTENT MODIFICATION */
+section {
+    padding: 10px;
+}
+
+article {
+    padding: 5px;
 }
