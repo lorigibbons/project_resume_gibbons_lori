@@ -1,8 +1,13 @@
 /* TABLE OF CONTENTS */
 
-/* COLORS USED */
+/* COLORS USED
+Background: #00BCD4 */
 
-/* FONTS USED */
+/* FONTS USED
+font-family: 'Rock Salt', cursive;   (header)
+font-family: 'Telex', sans-serif;    (body)
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +29,7 @@ summary {
 }
 
 html {
-    background: url(img/);
+    background-color: #00bcd4;
     box-sizing: border-box;
 }
 
@@ -34,6 +39,12 @@ html {
     box-sizing: inherit;
 }
 
-/* FONT DECLARATION */
-font-family: 'Rock Salt', cursive;
-font-family: 'Telex', sans-serif;
+h1 {
+    font-family: 'Rock Salt', cursive;
+    color: white;
+}
+
+h2 {
+    font-family: 'Telex', sans-serif;
+    color: white;
+}
