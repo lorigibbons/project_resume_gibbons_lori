@@ -5,7 +5,7 @@ Background: #00BCD4 */
 
 /* FONTS USED
 font-family: 'Rock Salt', cursive;  (header)
-font-family: 'Heebo', sans-serif;   (body)
+font-family: 'Khula', sans-serif;  (body)
 */
 
 * {
@@ -44,7 +44,11 @@ h1 {
     color: white;
 }
 
-h2 {
-    font-family: 'Telex', sans-serif;
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Khula', sans-serif;
     color: white;
 }
