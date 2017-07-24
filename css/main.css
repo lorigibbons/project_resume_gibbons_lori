@@ -179,6 +179,10 @@ img {
     color: white;
 }
 
+.social-icon-container a {
+    width: calc(100% / 4 - 20px);
+}
+
 div ul li {
     list-style-type: none;
 }
