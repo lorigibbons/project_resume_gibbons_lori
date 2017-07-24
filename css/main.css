@@ -227,3 +227,21 @@ article {
 .testimonials article {
     background-color: rgba(25, 148, 164, 0.53);
 }
+
+/* MEDIA QUIERIES */
+
+/*  MEDIA QUERY - Between 0 and 768PX FOR IpAD */
+@media (min-width: 768px) {
+    .contact-container {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+    .work article p,
+    .education article,
+    .testimonials article {
+        display: block;
+        margin: auto;
+        width: 70%;
+    }
+}
