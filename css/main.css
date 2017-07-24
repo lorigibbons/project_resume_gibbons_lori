@@ -42,6 +42,12 @@ html {
     box-sizing: inherit;
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 /* Fonts and Sizes */
 a:link {
     text-decoration: none;
@@ -175,13 +181,13 @@ img {
 
 div ul li {
     list-style-type: none;
-    display: block;
-    margin: auto;
 }
 
 div ul li i,
-div ul li a {
-    display: inline;
+div ul li a,
+div ul li p {
+    display: block;
+    float: left;
 }
 
 span {
