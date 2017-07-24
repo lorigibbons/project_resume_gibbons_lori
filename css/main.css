@@ -295,20 +295,19 @@ article {
         display: block;
         margin: auto;
     }
+    .button-container,
+    .testimonials {
+        margin: auto;
+        width: 70%;
+    }
+    .button {
+        float: none;
+        display: block;
+        margin: 25px auto;
+    }
     img {
         width: 17%;
         max-width: 20%;
-    }
-    button-container {
-        width: 50%;
-        display: block;
-        margin: auto;
-    }
-    .button {
-        width: calc(50% / 2 - 40px);
-        display: inline;
-        float: left;
-        margin: 20px;
     }
     h1 {
         font-size: 5rem;
@@ -326,8 +325,7 @@ article {
         width: calc(100% / 2 - 40px);
         float: left;
     }
-    .testimonials {
-        margin: auto;
-        width: 70%;
+    .textimonials {
+        width: 49%;
     }
 }
