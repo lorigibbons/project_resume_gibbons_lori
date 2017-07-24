@@ -186,8 +186,7 @@ div ul li {
 div ul li i,
 div ul li a,
 div ul li p {
-    display: block;
-    float: left;
+    display: inline;
 }
 
 span {
