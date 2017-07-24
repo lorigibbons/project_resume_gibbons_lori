@@ -265,7 +265,6 @@ article {
     }
     img {
         width: 20%;
-        max-width: 45%;
     }
     h1 {
         font-size: 4rem;
@@ -282,6 +281,31 @@ article {
     .testimonials article {
         height: 77px;
         margin: 10px;
+    }
+}
+
+/* MEDIA QUERY - 1400 and UP */
+@media (min-width: 1400px) {
+    img {
+        width: 16%;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    .button-container {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    .contact-container {
+        width: 28%;
+        display: block;
+        margin: auto;
+    }
+    .work article {
+        width: 65%;
+        display: block;
+        margin: auto;
     }
 }
 
