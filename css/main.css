@@ -287,8 +287,47 @@ article {
 
 /* MEDIA QUERY - 2000 and UP */
 @media (min-width: 2000px) {
+    html {
+        background-color: #00bcd4;
+    }
+    .container {
+        max-width: 2200px;
+        display: block;
+        margin: auto;
+    }
     img {
-        width: 15%;
+        width: 17%;
         max-width: 20%;
+    }
+    button-container {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .button {
+        width: calc(50% / 2 - 40px);
+        display: inline;
+        float: left;
+        margin: 20px;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    .contact-container {
+        width: 40%;
+        margin-top: 25px;
+    }
+    .work article {
+        width: calc(100% / 3);
+        float: left;
+    }
+    .education article,
+    .testimonials article {
+        width: calc(100% / 2 - 40px);
+        float: left;
+    }
+    .testimonials {
+        margin: auto;
+        width: 70%;
     }
 }
