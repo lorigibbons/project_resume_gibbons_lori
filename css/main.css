@@ -110,7 +110,7 @@ img {
     margin: auto;
     margin-top: 35px;
     width: 40%;
-    max-width: 70%;
+    max-width: 45%;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -230,7 +230,7 @@ article {
 
 /* MEDIA QUIERIES */
 
-/*  MEDIA QUERY - Between 0 and 768PX FOR IpAD */
+/*  MEDIA QUERY - 768PX and UP */
 @media (min-width: 768px) {
     .contact-container {
         width: 70%;
@@ -243,5 +243,29 @@ article {
         display: block;
         margin: auto;
         width: 70%;
+    }
+}
+
+/* MEDIA QUERY - 1024 and UP */
+@media (min-width: 1024px) {
+    img {
+        width: 30%;
+        max-width: 45%;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .education article,
+    .testimonials article {
+        width: calc(100% / 2 - 40px);
+        float: left;
+    }
+    .skills article {
+        float: left;
+        width: calc(100% / 3);
+    }
+    .testimonials article {
+        height: 77px;
+        margin: 10px;
     }
 }
