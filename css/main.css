@@ -248,8 +248,19 @@ article {
 
 /* MEDIA QUERY - 1024 and UP */
 @media (min-width: 1024px) {
-    img {
+    .button {
+        width: calc(100% / 2 - 40px);
+        display: inline;
+        float: left;
+        margin: 20px;
+    }
+    .social-icon-container {
         width: 30%;
+        display: block;
+        margin: auto;
+    }
+    img {
+        width: 20%;
         max-width: 45%;
     }
     h1 {
@@ -267,5 +278,13 @@ article {
     .testimonials article {
         height: 77px;
         margin: 10px;
+    }
+}
+
+/* MEDIA QUERY - 2000 and UP */
+@media (min-width: 2000px) {
+    img {
+        width: 15%;
+        max-width: 20%;
     }
 }
