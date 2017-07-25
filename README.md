@@ -1,5 +1,5 @@
 # Resources
-[Repo link here](https://github.com/lorruche/hw_jquery_gibbons_lori/branches)
+[Repo link here](https://github.com/lorruche/project_resume_gibbons_lori
 
 # Resources
 I did not use any resources outside of the lectures and my notes on this
