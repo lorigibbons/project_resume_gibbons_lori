@@ -14,3 +14,14 @@ $(document).ready(function () {
     });
 });
 //https://code.google.com/archive/p/jquery-tubular/
+
+//Point Point Plugin
+$('#pushButton').pointPoint();
+
+/*
+    // You can also pass arguments:
+    $('#pushButton').pointPoint({
+        "class":"myNewPointer",
+        "distance":100
+    });
+*/
