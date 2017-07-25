@@ -12,7 +12,7 @@ $(document).ready(function () {
     $('#work-Toggle').click(function () {
         $('.testToggle4').slideToggle();
     });
-});
+
 //https://code.google.com/archive/p/jquery-tubular/
 
 //Point Point Plugin
@@ -25,3 +25,4 @@ $('#pushButton').pointPoint();
         "distance":100
     });
 */
+});
