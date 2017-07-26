@@ -1,6 +1,6 @@
 //JQ Task #1, to toggle up the sections to collapse upon a click
 
-$(document).ready(function () {
+$(document).ready(function () {  //this means js will wait for html to load then run
     $('#testimonials').click(function () {
         $('.testToggle').slideToggle();
     });
@@ -25,4 +25,13 @@ $('#pushButton').pointPoint();
         "distance":100
     });
 */
+
+//CIRCLE TEXT test  http://www.jqueryscript.net/text/jQuery-Plugin-For-Flexible-Responsive-Curving-Text-CircleType-js.html
+//http://circletype.labwire.ca/
+
+    $('#demo').circleType({radius: 384});
+
+//LETTERING test  https://github.com/davatron5000/Lettering.js
+    $(".fancy_title").lettering();
+
 });
