@@ -11,7 +11,6 @@ $(document).ready(function () {  //this means js will wait for html to load then
         $('.testToggle3').slideToggle();
     $('#work-Toggle').click(function () {
         $('.testToggle4').slideToggle();
-    });
 
 //https://code.google.com/archive/p/jquery-tubular/
 
