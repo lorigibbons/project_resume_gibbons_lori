@@ -96,6 +96,11 @@ h4 {
     font-weight: 600;
 }
 
+h6 {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
 .hide {
     display: none;
 }

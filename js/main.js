@@ -16,8 +16,10 @@ $(document).ready(function () {  //this means js will wait for html to load then
 
 //https://code.google.com/archive/p/jquery-tubular/
 
+//Plugin 1:
 //Point Point Plugin
-    $('#pushButton').pointPoint();
+    $('#pushButton').pointPoint(
+    );
 
 /*
     // You can also pass arguments:
@@ -27,12 +29,13 @@ $(document).ready(function () {  //this means js will wait for html to load then
     });
 */
 
-//CIRCLE TEXT test  http://www.jqueryscript.net/text/jQuery-Plugin-For-Flexible-Responsive-Curving-Text-CircleType-js.html
+//Plugin 2:
+//CIRCLE TEXT http://www.jqueryscript.net/text/jQuery-Plugin-For-Flexible-Responsive-Curving-Text-CircleType-js.html
 //http://circletype.labwire.ca/
 
     $('#demo').circleType({radius: 400 } );
 
-//LETTERING test  https://github.com/davatron5000/Lettering.js
+//Plugin 3: Letters to a span element https://github.com/davatron5000/Lettering.js
     $(".fancy_title").lettering();
 
 });
