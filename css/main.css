@@ -237,6 +237,14 @@ article {
     background-color: rgba(25, 148, 164, 0.53);
 }
 
+#demo {
+    margin-top: 20px;
+}
+
+h6 span {
+    padding-bottom: 38px;
+}
+
 /* MEDIA QUIERIES */
 
 /*  MEDIA QUERY - 768PX and UP */
