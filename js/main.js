@@ -9,13 +9,15 @@ $(document).ready(function () {  //this means js will wait for html to load then
     });
     $('#education-Toggle').click(function () {
         $('.testToggle3').slideToggle();
+    });
     $('#work-Toggle').click(function () {
         $('.testToggle4').slideToggle();
+    });
 
 //https://code.google.com/archive/p/jquery-tubular/
 
 //Point Point Plugin
-$('#pushButton').pointPoint();
+    $('#pushButton').pointPoint();
 
 /*
     // You can also pass arguments:
@@ -28,7 +30,7 @@ $('#pushButton').pointPoint();
 //CIRCLE TEXT test  http://www.jqueryscript.net/text/jQuery-Plugin-For-Flexible-Responsive-Curving-Text-CircleType-js.html
 //http://circletype.labwire.ca/
 
-    $('#demo').circleType({radius: 384});
+    $('#demo').circleType({radius: 400 } );
 
 //LETTERING test  https://github.com/davatron5000/Lettering.js
     $(".fancy_title").lettering();
