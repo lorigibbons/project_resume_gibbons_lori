@@ -5,9 +5,9 @@ ___
 
 ## [Web Host Link](http://www.lorigibbons.com/project_resume_gibbons_lori/)
 
-## [W3C Validator Link]()
+## [W3C Validator Link](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.lorigibbons.com%2Fproject_resume_gibbons_lori%2F)
 
-## [HTML5 Outliner Link]()
+## [HTML5 Outliner Link](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.lorigibbons.com%2Fproject_resume_gibbons_lori%2F)
 
 # Resources
 ___
