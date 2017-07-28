@@ -1,21 +1,13 @@
 # Links
 ___
 
-## GitHub Link
+## [GitHub Link](https://github.com/lorruche/project_resume_gibbons_lori)
 
-* [Repo link](https://github.com/lorruche/project_resume_gibbons_lori)
+## [Web Host Link](http://www.lorigibbons.com/project_resume_gibbons_lori/)
 
-## Web Host Link
+## [W3C Validator Link]()
 
-*
-## W3C Validator Link
-
-*
-
-## HTML5 Outliner Link
-
-*
-
+## [HTML5 Outliner Link]()
 
 # Resources
 ___
@@ -30,6 +22,10 @@ ___
 [PointPoint Plugin](https://tutorialzine.com/2011/09/jquery-pointpoint-plugin)
 
 * Used to create arrow that points to my picture.
+
+[Button Error Fix](https://www.sitepoint.com/community/t/having-a-problem-with-a-button-being-a-descendant-of-an-element/33158/3)
+
+* Used to fix HTML Validator error for attempting to use button element erroneously.
 
 # Explanation of JQuery Used in Project
 Custom JQuery:
@@ -49,4 +45,5 @@ I reviewed the list of deductions for this project and in the syllabus.
 
 # Comments
 ___
-No comments.
+Validator gives me error for Google Fonts, which is allowable code.
+Validator also gives me warnings for using h1 elements with a class of hide.  I used then hid the h1's for outlining purposes.  I believe the outline for this project is perfect.
