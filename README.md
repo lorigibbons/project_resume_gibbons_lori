@@ -27,6 +27,10 @@ ___
 
 * Used to fix HTML Validator error for attempting to use button element erroneously.
 
+[How to make telephone number clickable for mobile](http://allwebco-templates.com/support/S_smartphone-link.htm)
+
+* Used this to make my phone number clickable on mobile site
+
 # Explanation of JQuery Used in Project
 Custom JQuery:
 
