@@ -14,8 +14,6 @@ $(document).ready(function () {  //this means js will wait for html to load then
         $('.testToggle4').slideToggle();
     });
 
-//https://code.google.com/archive/p/jquery-tubular/
-
 //Plugin 1:
 //Point Point Plugin
     $('#pushButton').pointPoint(
