@@ -49,7 +49,8 @@ html {
 }
 
 /* Fonts and Sizes */
-a:link {
+a:link,
+li p a:link {
     text-decoration: none;
 }
 
